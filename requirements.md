@@ -76,3 +76,42 @@ Views:
 
 -   Dashboard showing pig health and feed summary
 -   Detailed report views
+
+
+---
+### How to run in Powershell terminal
+1. Switch to backend folder
+
+```powershell
+cd ./backend/
+```
+2. Sometimes the terminal will say that there is a SecurityError: PSSecurityException. To bypass this type the following command in the terminal
+```powershell
+
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+```
+
+3. Then Activate the virtual environment
+```powershell
+
+1. .\venv\Scripts\Activate
+
+```
+4. Then run the following command to start the flask project
+```
+flask run
+
+```
+5. 
+
+  
+
+
+  Username: Denice
+  Password: TestSubject.1010
+
+Root Password: MYSQLR00T
+
+Windows Service name: MYSQL80
+

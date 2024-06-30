@@ -17,5 +17,9 @@ with app.app_context():
 
 initialize_routes(app)
 
+@app.route('/')
+def index():
+    return 'Hello, World! Forever'
+
 if __name__ == '__main__':
     app.run(debug=True)
